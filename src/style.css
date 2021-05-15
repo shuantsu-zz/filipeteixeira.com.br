@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+  background: #191d21;
+  font-family: roboto, sans-serif;
+}
+.container {
+  max-width: 1400px; 
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+  grid-gap: 10px;
+  margin: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.repo {
+  padding: 20px;
+  border-radius: 6px;
+  background: #ebeded;
+  text-align: center;
+  flex-direction: column;
+}
+.repo h1 {
+  text-transform: capitalize;
+  font-size: 16pt;
+  text-align: center;
+  color: rgb(107, 107, 107);
+}
+.language {
+  color: rgb(73, 127, 189);
+  font-weight: bold;
+}
+.repo h1 {
+  margin-bottom: 20px;
+}
+.tag-button:before {
+  content: '#';
+}
+button {
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14pt;
+}
+button {
+  transition: 1s all;
+  background: #006cd9;
+  color: white;
+  border: 0;
+  text-transform: capitalize;
+  padding: 12px;
+}
+button:hover {
+  opacity: .9;
+}
+.active {
+  display: flex;
+}
+.hidden {
+  display: none;
+}
+.repo img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.tags {
+  padding: 20px;
+}
+.repo p {
+  margin-top: 12px;
+  text-align: left;
+  font-size: 14pt;
+}
+.repo-content {
+  flex: 1;
+}
+.repo-buttons {
+  display: flex;
+  margin-top: 12px;
+}
+.repo-buttons button {
+  font-size: 10pt;
+}
+.repo-button {
+  background: #00b386;
+}
