@@ -1,0 +1,36 @@
+.footer {
+  background: black;
+  color: white;
+  font-size: 14pt;
+  padding: 50px;
+  margin-top: 100px; 
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .social-icons {
+    display: flex;
+    gap: 12px;
+  }
+  .social-icon p {
+    text-align: center;
+    padding: 10px;
+  }
+  .icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-size: 100%;
+  }
+  .codepen {
+    background-image: url(../../img/codepen.png);
+  }
+  .codewars {
+    background-image: url(../../img/codewars.png);
+  }
+  .youtube {
+    background-image: url(../../img/youtube.png);
+  }
+}

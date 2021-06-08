@@ -1,0 +1,26 @@
+body {
+  background: #191d21;
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+} 
+p {
+  font-size: 18pt;
+}
+h1 {
+  font-size: 30pt;
+}
+h2 {
+  font-size: 24pt;
+}
+a, a:visited, a:hover, a:active {
+	color: #08f;
+  text-decoration: none;
+}

@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './style.css';
-import data from './data.json';
+import Header from './components/Header';
+import Highlight from './components/Highlight';
+import Portfolio from './components/Portfolio/';
+import Footer from './components/Footer';
+import './style.scss';
+import './responsive.scss';
 
 ReactDOM.render(
-  <App data={data} />,
+  <>
+  <Header />
+  <Highlight />
+  <Portfolio />
+  <Footer />
+  </>,
   document.getElementById('root')
 );
